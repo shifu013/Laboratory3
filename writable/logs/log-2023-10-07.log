@@ -1,0 +1,63 @@
+CRITICAL - 2023-10-07 13:43:22 --> Invalid file: "Shop/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Shop/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Shop/index', [], true)
+ 3 APPPATH\Controllers\MainController.php(11): view('Shop/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
+CRITICAL - 2023-10-07 13:46:42 --> Invalid file: "Shop/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Shop/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Shop/index', [], true)
+ 3 APPPATH\Controllers\MainController.php(11): view('Shop/index')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
+CRITICAL - 2023-10-07 13:48:05 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\LAB3\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
+CRITICAL - 2023-10-07 13:48:07 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\LAB3\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
+CRITICAL - 2023-10-07 13:48:35 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\LAB3\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
+CRITICAL - 2023-10-07 13:49:55 --> include(Shop/include/productlist.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Shop\product.php on line 6.
+ 1 APPPATH\Views\Shop\product.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Shop/include/productlist.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\LAB3\\app\\Views\\Shop\\product.php', 6)
+ 2 APPPATH\Views\Shop\product.php(6): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\LAB3\\app\\Views\\Shop\\product.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Shop/product', [], true)
+ 6 APPPATH\Controllers\MainController.php(15): view('Shop/product')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->product()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\LAB3\\public\\index.php')
